@@ -1,0 +1,110 @@
+/* styles.css */
+
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #19191a;
+    margin-top: 5%;
+  }
+
+  h4 {
+    background: linear-gradient(to bottom,  #3d0303, #960303);
+    box-shadow: 7px 7px 15px #ff0000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
+  /* Formulario de creación de productos */
+  form {
+    background: rgba(255, 255, 255,75%);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #19191a;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  input[type="date"],
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: rgba(255, 255, 255,75%)
+  }
+
+  input[type="submit"] {
+    background-color: #FF0000;
+    color: #FFff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  /* Estilo para los botones de Eliminar */
+  input[type="submit"][name="eliminar"] {
+    background-color: #FF0000;
+  }
+
+  /* Estilo para los botones de Editar */
+  input[type="submit"][name="action"][value="Editar"] {
+    background-color: #FF0000;
+  }
+
+  /* Tabla de productos */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #19191a;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+    color: #19191a;
+  }
+
+  th {
+    background-color: #FF0000;
+    color: #19191a;
+  }
+
+  tr:nth-child(even) {
+    background: rgba(255, 255, 255,75%);
+  }
+
+  /* Enlaces */
+  a {
+    background-color: #FF0000;
+    color: #FFff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Formulario de edición */
+  form[action="editar.php"] {
+    background: rgba(255, 255, 255,75%);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }

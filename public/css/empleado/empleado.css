@@ -1,0 +1,111 @@
+/* styles.css */
+
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(imagen/Licores-del-mundo.jpg)
+  }
+  
+  h1 {
+    background-color: #6f3e1c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2{
+    background-color: #6f3e1c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Formulario de creación de productos */
+  form {
+    background: rgba(255, 255, 255,75%);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  input[type="date"],
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: rgba(255, 255, 255,75%)
+  }
+  
+  input[type="submit"] {
+    background-color: #d3b282;;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  /* Estilo para los botones de Eliminar */
+  input[type="submit"][name="eliminar"] {
+    background-color: #d3b282;
+  }
+  
+  /* Estilo para los botones de Editar */
+  input[type="submit"][name="action"][value="Editar"] {
+    background-color: #d3b282;
+  }
+  
+  /* Tabla de productos */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #6f3e1c;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background: rgba(255, 255, 255,75%);
+  }
+  
+  /* Enlaces */
+  a {
+    text-decoration: none;
+    background: rgba(255, 255, 255,75%);
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Formulario de edición */
+  form[action="editar.php"] {
+    background: rgba(255, 255, 255,75%);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

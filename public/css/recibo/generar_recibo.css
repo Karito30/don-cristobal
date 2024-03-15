@@ -1,0 +1,32 @@
+/* generar_recibo.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(imagen/descarga.jpg)
+  }
+  
+
+/* Estilos para el encabezado */
+h1 {
+    color: #333; /* Cambia el color a tu preferencia */
+    font-size: 24px;
+    text-align: center; /* Cambia el tamaño de fuente a tu preferencia */
+}
+
+/* Estilos para los párrafos */
+p {
+    margin: 10px 0; /* Añade un margen superior e inferior a los párrafos */
+    font-size: 16px; /* Cambia el tamaño de fuente a tu preferencia */
+    text-align: center;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.75);
+    
+   
+padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
